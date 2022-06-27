@@ -1,27 +1,34 @@
 import React, {useState} from "react";
+import Input from "../../components/Input";
+import ButtonC from "../../components/ButtonC";
+import {Button} from "react-bootstrap";
+import Logo from "../../assets/img/logo.jpg"
+import ButtonComponent from "../../components/ButtonC";
+import "./index.css"
 
 //COMPONENTS
 
-
 const Home = () => {
-    
      return (
-        <div style={{textAlign:"center", marginTop: "50px", marginBottom: "60px"}}>
+        <div className="menuMaior" >
+            <img src={Logo}/>
             
             <div style={{ padding:"20px"}}>
                 <h5 className="center">
-                    React Js + Docker <br/> 
-                    <span style={{fontSize:"15px"}}>React Js com Docker</span>
+                    Formulário de cadastro de Livros
                 </h5>
+                <p>Biblioteca Nacional de Brasília</p>
             </div>
 
-               
-            <div style={{alignItems:"center", marginTop: "20px", marginBottom: "20px"}}>
-                <a href="*" style={{textDecoration: "underline", fontSize:"20px"}}>Está com dúvidas?</a>
-            </div>            
+            <div>
+                <Input/>
+            </div>
+
+            <div >
+                <ButtonComponent />
+            </div>
         </div>
     )
-
 }
 
 export default Home;

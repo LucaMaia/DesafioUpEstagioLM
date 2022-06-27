@@ -1,0 +1,22 @@
+.promotion-form_group{
+    display:flex;
+    flex-direction: column;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.promotion-form_group label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.promotion-form_group input{
+    border: 1px solid #AAAAAA;
+    border-radius: 8px;
+    background-color: white;
+    height: 36px;
+    padding: 0 10px;
+    text-align: center;
+}

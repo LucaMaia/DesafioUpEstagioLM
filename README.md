@@ -4,6 +4,9 @@ Para ambientes de desenvolvimento,  deverá obrigatoriamente utilizar o docker p
 
 ```
 # Subindo o Frontend 
+
+--Entrar na pasta "TelaReactComDocker"
+
 --1- docker-compose up -d --build
 
 #listando os container após o build
@@ -23,7 +26,13 @@ Para ambientes de desenvolvimento,  deverá obrigatoriamente utilizar o docker p
 ---docker-compose build  reactjs-frontend-frontend
 ---docker-compose up -d  reactjs-frontend-frontend
 
+# Erro na instalação
+
+---caso haja um erro na instalação apagar os pacotes "node_modules" e "package-lock.json" e refazer todos os passos acima.
+
 
 # Visualizando aplicação localhost
-* Frontend na porta 80
-http://localhost/
+* Frontend na porta 82
+http://localhost/82
+
+// Tive Problemas ao conectar o MongoDB com o Backend , não tenho muita experiência ainda na parte de Back, peço que olhem mais as estruturas de pastas e as chamadas. Projeto incompleto!

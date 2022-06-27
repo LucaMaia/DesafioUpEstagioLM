@@ -1,0 +1,28 @@
+.titulo{
+    text-align: center;
+    padding-top: 0px;
+}
+.lista{
+    /*border: 1px solid red;*/
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.list-group{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+p{
+    text-align: center;
+}
