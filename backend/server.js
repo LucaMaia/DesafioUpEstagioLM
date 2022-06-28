@@ -7,7 +7,7 @@ const routes = require('./src/routes');
 const app = express();
 const port = process.env.PORT || 5000
 
-//Rodar o comando 'node server'
+//Rodar o comando 'node server.js'
 
 mongoose.connect('mongodb://localhost:27017/noderest', {
     useUnifiedTopology: true,
