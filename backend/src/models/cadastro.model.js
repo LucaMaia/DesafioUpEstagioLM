@@ -13,8 +13,6 @@ const DataSchema = new mongoose.Schema({
         type: Date,
         require: true,
     }
-},{
-    timestamps: true
 })
 
 const cadastro = mongoose.model('Cadastro', DataSchema)

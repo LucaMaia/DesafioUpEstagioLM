@@ -5,7 +5,7 @@ Para ambientes de desenvolvimento,  deverá obrigatoriamente utilizar o docker p
 ```
 # Subindo o Frontend 
 
---Entrar na pasta "TelaReactComDocker"
+--Entrar na pasta "DesafioUpEstagioLM"
 
 --1- docker-compose up -d --build
 
